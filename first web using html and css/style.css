@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+     /* background: linear-gradient() (to top, rgba(121, 74, 217)60%,rgba(121, 74, 217)50%), url("IMG-20241106-WA0207.jpg")"; */ 
+ /* background-position: center; */
+    /* background-size: cover; */
+    /* height: 109vh;  */
+    background-image: url(./IMG-20241106-WA0207.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+   
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #e4e70d;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+    float: left;
+    margin-top: 20px;
+}
+.menu{
+    width: 400x;
+    float:left;
+    height: 30px;
+    margin-top: 30px;
+}
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #d80000;
+   
+
+}
+ ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin: top 70px;;
+    font-size: 18px;
+    color: aqua;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(153, 180, 238);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+
+
+
+    color: #e21111;
+
+}
+.serchbar{
+    width: 100%;
+    /* float: left; */
+    
+    
+    
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid #0af545;
+    /* margin-top: 2px; */
+    color: #e4e70d;
+}    
