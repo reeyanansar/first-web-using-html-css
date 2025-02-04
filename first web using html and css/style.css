@@ -26,12 +26,13 @@
     padding: 0px 20px;
     justify-content: space-between;
     height: 75px;
-    /* margin: auto; */
+    margin: auto;
     /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row; */
-
+max-resolution: 100px;
+left: 10px;
 
 }
 
